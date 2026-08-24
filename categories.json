@@ -1,11 +1,37 @@
 {
-  "categories": [
-    { "id": "utilities", "name": "Utilities", "description": "General-purpose desktop tools and helpers." },
-    { "id": "developer-tools", "name": "Developer Tools", "description": "Tools for coding, Git, GitHub, and development workflows." },
-    { "id": "networking", "name": "Networking", "description": "Network, DNS, proxy, routing, and connectivity tools." },
-    { "id": "privacy", "name": "Privacy & Security", "description": "Privacy-focused and security-awareness projects." },
-    { "id": "browser-extensions", "name": "Browser Extensions", "description": "Extensions and browser-based tools." },
-    { "id": "web-tools", "name": "Web Tools", "description": "Projects primarily used through a website." },
-    { "id": "other", "name": "Other", "description": "Projects that do not fit another category." }
+  "catalogVersion": 1,
+  "updatedAt": "2026-08-24",
+  "apps": [
+    {
+      "id": "bow-git-vault",
+      "name": "Bow Git Vault",
+      "shortDescription": "A local-first Windows Git and GitHub repository manager for organizing repositories, checking status, reviewing changes, managing branches, and handling common Git workflows from one desktop app.",
+      "category": "developer-tools",
+      "status": "stable",
+      "featured": true,
+      "installable": true,
+      "github": {
+        "repo": "PotterService/bow-git-vault",
+        "releaseChannel": "stable",
+        "assetMatch": ".exe"
+      },
+      "display": {
+        "type": "website",
+        "url": "https://git.potterservice.com"
+      },
+      "links": {
+        "website": "https://git.potterservice.com",
+        "github": "https://github.com/PotterService/bow-git-vault",
+        "releases": "https://github.com/PotterService/bow-git-vault/releases"
+      },
+      "tags": [
+        "git",
+        "github",
+        "repositories",
+        "developer-tools",
+        "windows",
+        "local-first"
+      ]
+    }
   ]
 }
