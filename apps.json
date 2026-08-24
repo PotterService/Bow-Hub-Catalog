@@ -1,0 +1,31 @@
+{
+  "catalogVersion": 1,
+  "updatedAt": "2026-08-24",
+  "apps": [
+    {
+      "id": "example-app",
+      "name": "Example App",
+      "shortDescription": "Placeholder entry showing how Bow Hub catalog apps are configured.",
+      "category": "utilities",
+      "status": "concept",
+      "featured": false,
+      "installable": false,
+      "icon": "icons/example-app.png",
+      "banner": "assets/banners/example-app.png",
+      "github": {
+        "repo": "YOUR-GITHUB-USERNAME/Example-App",
+        "releaseChannel": "stable",
+        "assetMatch": ".exe"
+      },
+      "display": {
+        "type": "custom-html",
+        "html": "pages/example-app.html"
+      },
+      "links": {
+        "website": "",
+        "github": "https://github.com/YOUR-GITHUB-USERNAME/Example-App"
+      },
+      "tags": ["example", "placeholder"]
+    }
+  ]
+}

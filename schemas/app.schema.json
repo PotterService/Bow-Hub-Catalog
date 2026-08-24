@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bow Hub Catalog App",
+  "type": "object",
+  "required": ["id", "name", "shortDescription", "category", "status", "display"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "shortDescription": { "type": "string", "minLength": 1 },
+    "category": { "type": "string" },
+    "status": { "type": "string", "enum": ["concept", "prototype", "alpha", "beta", "stable", "deprecated", "archived"] },
+    "featured": { "type": "boolean" },
+    "installable": { "type": "boolean" },
+    "icon": { "type": "string" },
+    "banner": { "type": "string" },
+    "github": {
+      "type": "object",
+      "properties": {
+        "repo": { "type": "string" },
+        "releaseChannel": { "type": "string" },
+        "assetMatch": { "type": "string" }
+      }
+    },
+    "display": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["generated", "website", "custom-html"] },
+        "url": { "type": "string" },
+        "html": { "type": "string" }
+      }
+    },
+    "links": { "type": "object" },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}
