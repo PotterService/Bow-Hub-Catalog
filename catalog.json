@@ -1,0 +1,32 @@
+{
+  "catalogVersion": 1,
+  "categories": [
+    "Utilities",
+    "Developer Tools",
+    "Networking",
+    "Privacy",
+    "Browser Extensions",
+    "Fan Projects",
+    "Other"
+  ],
+  "statuses": [
+    "Concept",
+    "Prototype",
+    "Alpha",
+    "Beta",
+    "Stable",
+    "Archived"
+  ],
+  "apps": [
+    {
+      "id": "bow-git-vault",
+      "name": "Bow Git Vault",
+      "description": "A simple desktop Git and GitHub manager.",
+      "category": "Developer Tools",
+      "status": "Stable",
+      "website": "https://git.potterservice.com",
+      "featured": true,
+      "icon": ""
+    }
+  ]
+}

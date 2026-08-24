@@ -1,0 +1,2 @@
+Upload the contents of this folder to the Bow-Hub-Catalog GitHub repository.
+Bow Hub should read catalog.json as its remote catalog.
